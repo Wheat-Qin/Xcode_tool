@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ttt</string>
+	<string>gh_tableViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -42,8 +42,10 @@
 	<string>B9E1ED5F-F3D6-4479-A2DF-0C8B21740CD6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView - Delegate - Datasource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC UITableView - Delegate - Datasource</string>
+	<string>gh UITableView - Delegate - Datasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

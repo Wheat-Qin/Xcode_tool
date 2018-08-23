@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>gh_property_copy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -13,11 +13,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C0DFAFF4-635E-4CB3-8F1C-4838A1162E50</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property (nonatomic,copy)</string>
+	<string>@property (nonatomic,copy) NSString *&lt;#string#&gt;;</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (nonatomic,copy)</string>
+	<string>gh_property_copy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

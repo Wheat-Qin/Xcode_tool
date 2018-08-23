@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_register_nib</string>
+	<string>gh_register_nib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -17,9 +17,10 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq register nib</string>
+	<string>UINib * nib = [UINib nibWithNibName:@"" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:ReuseIdentifier];</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq register nib</string>
+	<string>gh register nib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>gh_property_assign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -13,11 +13,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1DB2612A-444B-4673-B89E-D9DB98D69A85</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property (nonatomic,assign)</string>
+	<string>@property (nonatomic,assign) &lt;#Class#&gt; &lt;#property#&gt;;</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (nonatomic,assign)</string>
+	<string>gh_property_assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

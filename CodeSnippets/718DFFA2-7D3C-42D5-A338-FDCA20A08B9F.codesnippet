@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>delegate:</string>
+	<string>gh_property_delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -13,11 +13,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>718DFFA2-7D3C-42D5-A338-FDCA20A08B9F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property (nonatomic,weak)</string>
+	<string>@property (nonatomic,weak) id&lt;&lt;#protocol#&gt;&gt; &lt;#delegate#&gt;;</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (nonatomic,weak)</string>
+	<string>gh_property_delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

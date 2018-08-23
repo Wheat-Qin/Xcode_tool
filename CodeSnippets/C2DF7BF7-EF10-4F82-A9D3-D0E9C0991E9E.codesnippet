@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_timer</string>
+	<string>gh_timer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
@@ -24,9 +24,9 @@ self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq_timer</string>
+	<string>gh_timer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq_timer</string>
+	<string>gh_timer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

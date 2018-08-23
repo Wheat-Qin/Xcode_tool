@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>gh_property_weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -14,11 +14,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0B1B1D9C-08EB-49A6-8C91-3319FDAB3F1A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property(nonatomic,weak)</string>
+	<string>@property(nonatomic,weak)**</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic,weak)</string>
+	<string>gh_property_weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
