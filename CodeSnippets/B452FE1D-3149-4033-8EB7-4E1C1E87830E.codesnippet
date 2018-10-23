@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gh_#ifdef</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#ifdef &lt;#判断条件#&gt;
+//如果 &lt;#判断条件#&gt; 被宏定义过，那么里面的代码会执行，否则不会执行。
+
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B452FE1D-3149-4033-8EB7-4E1C1E87830E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>//如果 &lt;#判断条件#&gt; 被宏定义过，那么里面的代码会执行，否则不会执行。</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>宏定义判断条件</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

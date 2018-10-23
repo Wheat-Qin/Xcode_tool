@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gh_dispatch_main_async_safe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#ifndef dispatch_main_async_safe
+#define dispatch_main_async_safe(block) dispatch_queue_async_safe(dispatch_get_main_queue(), block)
+#endif
+
+#ifndef dispatch_queue_async_safe
+#define dispatch_queue_async_safe(queue, block)\
+if (dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL) == dispatch_queue_get_label(queue)) {\
+block();\
+} else {\
+dispatch_async(queue, block);\
+}
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>172ED362-0962-4BDA-8B1D-2B7FB952D0B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>安全异步分发任务到主线程里执行</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>dispatch_main_async_safe</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

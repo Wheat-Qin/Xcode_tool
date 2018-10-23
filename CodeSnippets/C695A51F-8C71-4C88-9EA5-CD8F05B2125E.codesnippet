@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gh_IPHONE_OS_VERSION</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (__IPHONE_OS_VERSION_MAX_ALLOWED == __IPHONE_9_0) {
+    //如果当前SDK版本为9.0是执行这里的代码
+}else{
+    //否则执行这里
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C695A51F-8C71-4C88-9EA5-CD8F05B2125E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>__IPHONE_OS_VERSION_MAX_ALLOWED</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>根据sdk系统做判断</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

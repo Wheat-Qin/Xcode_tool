@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gh_leakWarning</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define SuppressPerformSelectorLeakWarning(Method) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Method; \
+_Pragma("clang diagnostic pop") \
+} while (0)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7C6693C8-E5E6-4232-8337-A7B2E52F7B8D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>宏定义，使用：SuppressPerformSelectorLeakWarning(方法)或者id result;
+SuppressPerformSelectorLeakWarning( result = XXX方法]
+);</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>单纯消除 warning</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
