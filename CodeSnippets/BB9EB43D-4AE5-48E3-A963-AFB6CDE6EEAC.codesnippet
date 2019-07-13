@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>gh_annotation(注释)</string>
+	<string>///===</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- &lt;#content#&gt;
- */</string>
+	<string>///=============================================================================
+/// @name &lt;#type#&gt;
+///=============================================================================</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3245F18-0B2B-4498-A8E7-809EC2CBBD67</string>
+	<string>BB9EB43D-4AE5-48E3-A963-AFB6CDE6EEAC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>注释</string>
+	<string>宏定义中的模块注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>/***/</string>
+	<string>宏定义中的模块注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
