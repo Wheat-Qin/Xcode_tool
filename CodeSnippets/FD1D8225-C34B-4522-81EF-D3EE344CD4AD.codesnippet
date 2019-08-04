@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>gh_MARK</string>
+	<string>gh_disPatch_after</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> //MARK: &lt;#type#&gt;</string>
+	<string>// 延迟执行
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#time#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 需要延迟执行的代码
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A0E3F690-2074-45EB-8B6A-460D327D0A97</string>
+	<string>FD1D8225-C34B-4522-81EF-D3EE344CD4AD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>注释</string>
+	<string>GCD延迟执行</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>//MARK: &lt;#type#&gt;</string>
+	<string>GCD延迟执行</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
