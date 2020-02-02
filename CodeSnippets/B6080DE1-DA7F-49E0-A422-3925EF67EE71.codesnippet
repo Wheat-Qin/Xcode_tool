@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - **************** Life Cycle
+
+#pragma mark - **************** Action 相关事件方法
+    
+#pragma mark - **************** lazy load
+    
+#pragma mark - **************** UITableView 相关 delegate datasource
+
+#pragma mark - **************** UICollectionView
+
+#pragma mark - **************** 其他一些自定义view代理
+
+#pragma mark - **************** Networking 网络请求
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B6080DE1-DA7F-49E0-A422-3925EF67EE71</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>简单ViewController实现规范</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gh_implementation</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
